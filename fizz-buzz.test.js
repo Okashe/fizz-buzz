@@ -9,3 +9,7 @@ test("returns 'FizzBuzz'", ()=>{
 it('returns "Buzz" for mulitples of 5 ', ()=>{
     expect(fizzBuzz(5)).toBe("Buzz");
 })
+
+it('returns "Fizz" for mulitples of 3 ', ()=>{
+    expect(fizzBuzz(9)).toBe("Fizz");
+})
